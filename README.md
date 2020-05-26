@@ -49,15 +49,17 @@ OPCExplorer.exe тестовый клиент ОРС.
 
 Первоначальная установка:
 1. Поместить файлы 
-OPC Core Components Redistributable (x86) 105.1.zip
-opccli2redis.exe
-opccli2redis.ini
-OPCExplorer.exe
+OPC Core Components Redistributable (x86) 105.1.zip, 
+opccli2redis.exe, 
+opccli2redis.ini, 
+OPCExplorer.exe, 
 README.md
-в папку c:\OPC2REDIS\
+в папку "c:\OPC2REDIS\" или выбранную пользователем.
 2. Выполнить установку OPC Core Components из архива.
 3. Проверить подключение к нужному орс-серверу в OPCExplorer.
-4. Заменить opccli2redis.ini на "боевой", с корректными адресами и именами.
+4. Заменить opccli2redis.ini на "боевой", с корректными адресами и именами сервера и тэгов.
 5. Добавить opccli2redis.exe в автозагрузку, например планировщиком задач.
 6. Запустить opccli2redis.exe.
+
+Шлюз управляется через меню в трее.
 
