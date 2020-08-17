@@ -17,6 +17,7 @@ opc_server_exe=easyopc
 
 // айпишник Redis
 redis_ip = 127.0.0.1
+redis_port = 6379
 
 // флаг передачи значения ключа редиса в виде json объекта
 
